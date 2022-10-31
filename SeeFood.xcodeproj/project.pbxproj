@@ -14,6 +14,7 @@
 		B13F9E78290BDFB000F530D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B13F9E77290BDFB000F530D7 /* Assets.xcassets */; };
 		B13F9E7B290BDFB000F530D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B13F9E79290BDFB000F530D7 /* LaunchScreen.storyboard */; };
 		B13F9E85290BE13A00F530D7 /* Inceptionv3.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = B13F9E84290BE13A00F530D7 /* Inceptionv3.mlpackage */; };
+		B15F1777290FCE9C00598C6C /* MyImageClassifier 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B15F1776290FCE9C00598C6C /* MyImageClassifier 1.mlmodel */; };
 		C22B8CCB2CBFBCCDF869604C /* Pods_SeeFood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E676B5FB2F6C0F7CF170A273 /* Pods_SeeFood.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		B13F9E7A290BDFB000F530D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B13F9E7C290BDFB000F530D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B13F9E84290BE13A00F530D7 /* Inceptionv3.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = Inceptionv3.mlpackage; sourceTree = "<group>"; };
+		B15F1776290FCE9C00598C6C /* MyImageClassifier 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "MyImageClassifier 1.mlmodel"; sourceTree = "<group>"; };
 		B792B64FB82CBDE96C4478D0 /* Pods-SeeFood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeeFood.release.xcconfig"; path = "Target Support Files/Pods-SeeFood/Pods-SeeFood.release.xcconfig"; sourceTree = "<group>"; };
 		E676B5FB2F6C0F7CF170A273 /* Pods_SeeFood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeeFood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -73,6 +75,7 @@
 				B13F9E79290BDFB000F530D7 /* LaunchScreen.storyboard */,
 				B13F9E7C290BDFB000F530D7 /* Info.plist */,
 				B13F9E84290BE13A00F530D7 /* Inceptionv3.mlpackage */,
+				B15F1776290FCE9C00598C6C /* MyImageClassifier 1.mlmodel */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -83,7 +86,6 @@
 				3455B056AFB001A507E04B6F /* Pods-SeeFood.debug.xcconfig */,
 				B792B64FB82CBDE96C4478D0 /* Pods-SeeFood.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -211,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B13F9E85290BE13A00F530D7 /* Inceptionv3.mlpackage in Sources */,
+				B15F1777290FCE9C00598C6C /* MyImageClassifier 1.mlmodel in Sources */,
 				B13F9E73290BDFAF00F530D7 /* ViewController.swift in Sources */,
 				B13F9E6F290BDFAF00F530D7 /* AppDelegate.swift in Sources */,
 				B13F9E71290BDFAF00F530D7 /* SceneDelegate.swift in Sources */,

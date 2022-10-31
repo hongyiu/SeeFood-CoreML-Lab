@@ -46,9 +46,14 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     
     func detect(image: CIImage) {
         
-        guard let model = try? VNCoreMLModel(for: Inceptionv3().model) else {
+//        guard let model = try? VNCoreMLModel(for: Inceptionv3().model) else {
+//            fatalError("Loading CoreML Model Failed.")
+//        }
+        
+        guard let model = try? VNCoreMLModel(for: MyImageClassifier_1().model) else {
             fatalError("Loading CoreML Model Failed.")
         }
+
         
         let request = VNCoreMLRequest(model: model) { (request, error) in
             guard let results = request.results as? [VNClassificationObservation] else {
