@@ -101,7 +101,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
                 
                 let resultDescription = resultJSON["query"]["pages"][pageid]["extract"].stringValue
                 
-                self.label.text = resultDescription
+                self.label.text = resultDescription.isEmpty ? "Cannot find the description of \(name.capitalized)" : resultDescription
                 
             }
         }
